@@ -1,7 +1,9 @@
-# Golf Rules Official Agent
+# GolfRulesOfficialAgent
 
-An open-source Codex skill for answering Rules of Golf questions with a
-Markdown-first, current-rules workflow.
+Golf Rules Official Agent is an open-source Codex skill for answering Rules of
+Golf questions with a Markdown-first, current-rules workflow.
+
+Repository search name: `GolfRulesOfficialAgent`
 
 This repository intentionally does **not** include official Rules of Golf PDFs,
 converted Markdown rules text, embeddings, vector databases, or any other
