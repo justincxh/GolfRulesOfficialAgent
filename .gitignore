@@ -1,0 +1,28 @@
+.DS_Store
+.env
+.venv/
+__pycache__/
+*.pyc
+
+# Do not commit official rules corpora or generated search indexes.
+/corpus/
+/data/
+/rules-corpus/
+/source-pdfs/
+/generated/
+/golf-rules-qa/corpus/
+/golf-rules-qa/generated/
+*.pdf
+*.PDF
+*.epub
+*.sqlite
+*.sqlite3
+*.db
+*.faiss
+*.index
+*.pkl
+*.pickle
+
+# Local editor and OS files.
+.idea/
+.vscode/
