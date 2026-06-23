@@ -1,4 +1,0 @@
-interface:
-  display_name: "Golf Rules Q&A"
-  short_description: "Answer Rules of Golf with local sources"
-  default_prompt: "Use $golf-rules-qa to answer my Rules of Golf question from local official-source notes."

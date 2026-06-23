@@ -10,8 +10,8 @@ __pycache__/
 /rules-corpus/
 /source-pdfs/
 /generated/
-/golf-rules-qa/corpus/
-/golf-rules-qa/generated/
+/golf-rules-official-agent/corpus/
+/golf-rules-official-agent/generated/
 *.pdf
 *.PDF
 *.epub

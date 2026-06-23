@@ -1,4 +1,4 @@
-# Golf Rules Agent Skill
+# Golf Rules Official Agent
 
 An open-source Codex skill for answering Rules of Golf questions with a
 Markdown-first, current-rules workflow.
@@ -9,7 +9,7 @@ redistributed official rules corpus.
 
 ## What This Is
 
-- A Codex skill: `golf-rules-qa`
+- A Codex skill: `golf-rules-official-agent`
 - A workflow for answering golf rules questions from local sources
 - A Markdown-first corpus search pattern
 - Scripts to prepare and search a local user-owned corpus
@@ -28,13 +28,13 @@ Copy the skill folder into your Codex skills directory:
 
 ```bash
 mkdir -p "${CODEX_HOME:-$HOME/.codex}/skills"
-cp -R golf-rules-qa "${CODEX_HOME:-$HOME/.codex}/skills/"
+cp -R golf-rules-official-agent "${CODEX_HOME:-$HOME/.codex}/skills/"
 ```
 
 Then ask Codex:
 
 ```text
-Use $golf-rules-qa to answer this Rules of Golf question: ...
+Use $golf-rules-official-agent to answer this Rules of Golf question: ...
 ```
 
 ## Prepare A Local Corpus
@@ -52,7 +52,7 @@ Convert local PDFs to Markdown:
 
 ```bash
 mkdir -p ./source-pdfs ./corpus
-python3 golf-rules-qa/scripts/prepare_corpus.py \
+python3 golf-rules-official-agent/scripts/prepare_corpus.py \
   --source-dir ./source-pdfs \
   --output-dir ./corpus
 ```
@@ -66,7 +66,7 @@ export GOLF_RULES_CORPUS_DIR="$PWD/corpus"
 Search it:
 
 ```bash
-python3 golf-rules-qa/scripts/search_rules.py "$GOLF_RULES_CORPUS_DIR" 'Rule 11|equipment'
+python3 golf-rules-official-agent/scripts/search_rules.py "$GOLF_RULES_CORPUS_DIR" 'Rule 11|equipment'
 ```
 
 ## Public Repository Safety

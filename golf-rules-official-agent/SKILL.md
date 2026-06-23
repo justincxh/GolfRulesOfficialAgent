@@ -1,9 +1,9 @@
 ---
-name: golf-rules-qa
+name: golf-rules-official-agent
 description: Answer Rules of Golf questions with a Markdown-first, current-rules workflow. Use when a user asks about Rules of Golf rulings, penalties, relief procedures, match play or stroke play differences, Local Rules, Clarifications, Official Guide materials, Decisions mapping, bilingual Chinese/English golf rules lookup, or how to build/search a local Rules of Golf corpus without redistributing official rule text.
 ---
 
-# Golf Rules Q&A
+# Golf Rules Official Agent
 
 ## Overview
 
