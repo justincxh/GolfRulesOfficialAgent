@@ -1,13 +1,14 @@
-# GolfRulesOfficialAgent
+# Golf Rules Official Agent
 
 Golf Rules Official Agent is an open-source Codex skill for answering Rules of
 Golf questions with a Markdown-first, current-rules workflow.
 
 Repository search name: `GolfRulesOfficialAgent`
 
-Search keywords: golf rules agent, golf rules official agent, rules of golf
-agent, Rules of Golf Codex skill, golf rules AI assistant, golf rules
-markdown search, R&A USGA rules workflow.
+Search keywords: Golf, Golf Rules, Golf Rules Official Agent, golf rules
+agent, golf rules official agent, rules of golf agent, Rules of Golf Codex
+skill, golf rules AI assistant, golf rules markdown search, R&A USGA rules
+workflow.
 
 This repository intentionally does **not** include official Rules of Golf PDFs,
 converted Markdown rules text, embeddings, vector databases, or any other
