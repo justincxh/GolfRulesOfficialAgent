@@ -43,6 +43,16 @@ official rules text.
 4. Answer with a concise ruling, action steps, penalty, rule basis, caveats, and
    confidence.
 
+## Referee Case Adjudication
+
+When the user acts as a referee or official and gives a concrete case that needs
+a ruling, use the branch workflow in `references/referee-adjudication.md`
+instead of the general Q&A path. Key idea: rule-first, and if the plain rule
+text unambiguously covers the facts, close the case at that step — run one
+rule-number exception scan over the local Clarifications corpus, then conclude.
+Only drop into the case layer when the rule text is unclear or the case has
+special elements. The reference also holds a rule-number routing table.
+
 ## Local Corpus
 
 Expect the user to provide their own local corpus. Common environment variable:
@@ -74,6 +84,8 @@ python3 scripts/search_rules.py "$GOLF_RULES_CORPUS_DIR" 'Rule 11|equipment'
 
 Load only what is needed:
 
+- `references/referee-adjudication.md`: branch workflow for ruling on concrete
+  cases, hard output requirements, and the rule-number routing table.
 - `references/official-sources.md`: official source links and source hierarchy.
 - `references/answer-format.md`: response format, fact checklist, and examples.
 - `references/bilingual-routing.md`: Chinese/English lookup strategy.
